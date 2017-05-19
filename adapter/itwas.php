@@ -15,7 +15,7 @@ interface DbInterface
  * Напрямую из клиента вызываются методы удаленной библиотеки.
  * Менять интерфейс мы не можем.
  */
-class MysqlClient implements DbInterface
+class DbClient implements DbInterface
 {
 	private $client;
 
