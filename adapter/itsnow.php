@@ -39,7 +39,7 @@ class NewMysqlDb
  * Текущий клиент к БД, который реализует уже существующий интерфейс.
  * Переписывать клиент нам не дадут, он уже используется по всей системе.
  */
-class MysqlClient implements DbInterface
+class DbClient implements DbInterface
 {
 	private $adapter;
 	
